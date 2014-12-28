@@ -9,7 +9,7 @@
 //
 //  Sticktron 2014
 //
-#define DEBUG
+#define NSStringFromBool(b) (b ? @"YES" : @"NO")
 
 #ifdef DEBUG
 
